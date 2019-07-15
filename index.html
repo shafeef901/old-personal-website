@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+	<link rel="author" href="https://shafeef901.github.io"/>
+
+	<meta property="og:title" content="Shafeef Omar"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:image" content="https://pbs.twimg.com/media/DqlIlDUVYAAxxLw.jpg:large"/>
+	<meta property="og:url" content="http://shafeef901.github.io/"/>
+	<meta property="og:site_name" content="Shafeef Omar">
+	<meta name="description" content="Personal website">
+	<meta property="og:description" content="Surf's Up"/>
+	<meta property="fb:admins" content=""/>
+
+	<title>Shafeef Omar</title>
+	<style>
+		body{
+			background: #000;
+			/*overflow: hidden;*/
+		}
+		.ripple-wrap {
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+
+
+		.header{
+			position: fixed;
+			top:20px;
+			left: 25px;
+			font-family: monospace;
+			color: white;
+			z-index: 99;
+		}
+		a, a:visited{
+			color: white;
+		}
+
+	</style>
+	<script src="ripple.js"></script>
+</head>
+	<body onload="waterRippleTwo('image-2');">
+		<div class="header">
+			<span><strong>Shafeef Omar</strong></span><br>
+			<span>Dept. of Engineering Design</span><br>
+			<span>Indian Institute of Technology Madras</span><br>
+			<span> ✉️ : </span> <a href="mailto:shafeef901@gmail.com"><span class="__cf_email__">shafeef901@gmail.com</span></a><br><br>
+			<span>Find me on: </span><br>
+			<a target="_blank" href="https://www.linkedin.com/in/shafeef-omar/">LinkedIn</a><span> | </span>
+			<a target="_blank" href="https://www.github.com/shafeef901">Github</a><span> | </span>
+			<a target="_blank" href="https://www.instagram.com/_shafeef_/">Instagram</a><span> | </span>
+			<a target="_blank" href="https://twitter.com/shafeef_omar">Twitter</a><span> | </span>
+			<a target="_blank" href="https://www.facebook.com/shfomr">Facebook</a>
+
+		</div>
+		<div class="ripple-wrap">
+			<img id="image-2" src="test.png" style="opacity: 0;"  />
+		</div>
+
+
+
+	</body>
+</html>
